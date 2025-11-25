@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 4      |
+| 🟢 Easy    | 5      |
 | 🟡 Medium  | 6      |
 | 🔴 Hard    | 1      |
-| **Total**  | **11** |
+| **Total**  | **12** |
 
 ## 📁 Repository Structure
 
@@ -86,7 +86,7 @@ leetcode-solutions/
 ### Stack & Queue
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| - | - | - | - |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | [C++](stack-queue/0020_valid_parentheses.cpp) |
 
 ### Heap / Priority Queue
 | # | Title | Difficulty | Solution |
