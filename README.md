@@ -65,7 +65,7 @@ leetcode-solutions/
 ### Dynamic Programming
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| - | - | - | - |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium | [C++](dynamic-programming/0005_longest_palindromic_substring.cpp) |
 
 ### Binary Search
 | # | Title | Difficulty | Solution |
