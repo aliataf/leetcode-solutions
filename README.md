@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 4      |
-| 🟡 Medium  | 4      |
+| 🟡 Medium  | 5      |
 | 🔴 Hard    | 1      |
-| **Total**  | **9**  |
+| **Total**  | **10** |
 
 ## 📁 Repository Structure
 
@@ -41,6 +41,7 @@ leetcode-solutions/
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [C++](arrays/0001_two_sum.cpp) |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium | [C++](arrays/0015_3sum.cpp) |
 
 ### Strings
 | # | Title | Difficulty | Solution |
