@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 6      |
-| 🟡 Medium  | 6      |
+| 🟡 Medium  | 7      |
 | 🔴 Hard    | 1      |
-| **Total**  | **13** |
+| **Total**  | **14** |
 
 ## 📁 Repository Structure
 
@@ -98,6 +98,7 @@ leetcode-solutions/
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | [C++](backtracking/0017_letter_combinations_of_a_phone_number.cpp) |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | [C++](backtracking/0022_generate_parentheses.cpp) |
 
 ### Greedy
 | # | Title | Difficulty | Solution |
