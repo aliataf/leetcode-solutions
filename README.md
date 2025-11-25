@@ -1,0 +1,150 @@
+# 🧠 LeetCode Solutions
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/)
+[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org/)
+
+My solutions to LeetCode problems, organized by topic and difficulty. Each solution includes detailed explanations, time & space complexity analysis, and multiple approaches when applicable.
+
+## 📊 Progress
+
+| Difficulty | Solved |
+|------------|--------|
+| 🟢 Easy    | 1      |
+| 🟡 Medium  | 0      |
+| 🔴 Hard    | 0      |
+| **Total**  | **1**  |
+
+## 📁 Repository Structure
+
+```
+leetcode-solutions/
+├── arrays/
+├── strings/
+├── linked-lists/
+├── trees/
+├── graphs/
+├── dynamic-programming/
+├── binary-search/
+├── two-pointers/
+├── sliding-window/
+├── stack-queue/
+├── heap/
+├── backtracking/
+├── greedy/
+├── math/
+└── misc/
+```
+
+## 🗂️ Solutions by Topic
+
+### Arrays
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [C++](arrays/0001_two_sum.cpp) |
+
+### Strings
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Linked Lists
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Trees
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Graphs
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Dynamic Programming
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Binary Search
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Two Pointers
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Sliding Window
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Stack & Queue
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Heap / Priority Queue
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Backtracking
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Greedy
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+### Math
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| - | - | - | - |
+
+## 📝 Solution Template
+
+Each solution file follows this structure:
+- Problem description and link
+- Approach explanation
+- Time & Space complexity analysis
+- Clean, commented code
+- Test cases (when helpful)
+
+## 🚀 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aliataf/leetcode-solutions.git
+   ```
+
+2. Navigate to a topic folder and explore solutions
+
+3. Compile and run a solution:
+   ```bash
+   g++ -std=c++17 -o solution arrays/0001_two_sum.cpp && ./solution
+   ```
+
+## 🎯 Goals
+
+- [ ] Solve 100 Easy problems
+- [ ] Solve 150 Medium problems  
+- [ ] Solve 50 Hard problems
+- [ ] Complete all Blind 75 problems
+- [ ] Complete all NeetCode 150 problems
+
+## 📚 Resources
+
+- [LeetCode](https://leetcode.com/)
+- [NeetCode](https://neetcode.io/)
+- [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
+
+---
+
+⭐ Star this repo if you find it helpful!
+
