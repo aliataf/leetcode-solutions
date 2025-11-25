@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 7      |
+| 🟢 Easy    | 8      |
 | 🟡 Medium  | 7      |
 | 🔴 Hard    | 1      |
-| **Total**  | **15** |
+| **Total**  | **16** |
 
 ## 📁 Repository Structure
 
