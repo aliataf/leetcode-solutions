@@ -11,8 +11,8 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 |------------|--------|
 | 🟢 Easy    | 10     |
 | 🟡 Medium  | 8      |
-| 🔴 Hard    | 1      |
-| **Total**  | **19** |
+| 🔴 Hard    | 2      |
+| **Total**  | **20** |
 
 ## 📁 Repository Structure
 
@@ -83,6 +83,7 @@ leetcode-solutions/
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | [C++](two-pointers/0011_container_with_most_water.cpp) |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard | [C++](two-pointers/0042_trapping_rain_water.cpp) |
 
 ### Sliding Window
 | # | Title | Difficulty | Solution |
