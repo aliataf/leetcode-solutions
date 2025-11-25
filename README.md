@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 1      |
-| 🟡 Medium  | 1      |
+| 🟡 Medium  | 2      |
 | 🔴 Hard    | 0      |
-| **Total**  | **2**  |
+| **Total**  | **3**  |
 
 ## 📁 Repository Structure
 
@@ -80,7 +80,7 @@ leetcode-solutions/
 ### Sliding Window
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| - | - | - | - |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | [C++](sliding-window/0003_longest_substring_without_repeating_characters.cpp) |
 
 ### Stack & Queue
 | # | Title | Difficulty | Solution |
