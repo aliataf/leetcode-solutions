@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 3      |
+| 🟢 Easy    | 4      |
 | 🟡 Medium  | 4      |
 | 🔴 Hard    | 1      |
-| **Total**  | **8**  |
+| **Total**  | **9**  |
 
 ## 📁 Repository Structure
 
@@ -45,7 +45,7 @@ leetcode-solutions/
 ### Strings
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| - | - | - | - |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | [C++](strings/0014_longest_common_prefix.cpp) |
 
 ### Linked Lists
 | # | Title | Difficulty | Solution |
