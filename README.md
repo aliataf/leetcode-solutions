@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 2      |
-| 🟡 Medium  | 3      |
+| 🟡 Medium  | 4      |
 | 🔴 Hard    | 1      |
-| **Total**  | **6**  |
+| **Total**  | **7**  |
 
 ## 📁 Repository Structure
 
@@ -75,7 +75,7 @@ leetcode-solutions/
 ### Two Pointers
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| - | - | - | - |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | [C++](two-pointers/0011_container_with_most_water.cpp) |
 
 ### Sliding Window
 | # | Title | Difficulty | Solution |
