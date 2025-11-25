@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 1      |
-| 🟡 Medium  | 2      |
-| 🔴 Hard    | 0      |
-| **Total**  | **3**  |
+| 🟡 Medium  | 3      |
+| 🔴 Hard    | 1      |
+| **Total**  | **5**  |
 
 ## 📁 Repository Structure
 
@@ -70,7 +70,7 @@ leetcode-solutions/
 ### Binary Search
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| - | - | - | - |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | [C++](binary-search/0004_median_of_two_sorted_arrays.cpp) |
 
 ### Two Pointers
 | # | Title | Difficulty | Solution |
