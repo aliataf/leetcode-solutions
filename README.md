@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 1      |
-| 🟡 Medium  | 0      |
+| 🟡 Medium  | 1      |
 | 🔴 Hard    | 0      |
-| **Total**  | **1**  |
+| **Total**  | **2**  |
 
 ## 📁 Repository Structure
 
@@ -50,7 +50,7 @@ leetcode-solutions/
 ### Linked Lists
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| - | - | - | - |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | [C++](linked-lists/0002_add_two_numbers.cpp) |
 
 ### Trees
 | # | Title | Difficulty | Solution |
