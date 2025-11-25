@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 1      |
+| 🟢 Easy    | 2      |
 | 🟡 Medium  | 3      |
 | 🔴 Hard    | 1      |
-| **Total**  | **5**  |
+| **Total**  | **6**  |
 
 ## 📁 Repository Structure
 
@@ -105,7 +105,7 @@ leetcode-solutions/
 ### Math
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| - | - | - | - |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | [C++](math/0009_palindrome_number.cpp) |
 
 ## 📝 Solution Template
 
