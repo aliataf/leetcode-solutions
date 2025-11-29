@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 15     |
+| 🟢 Easy    | 16     |
 | 🟡 Medium  | 15     |
 | 🔴 Hard    | 3      |
-| **Total**  | **33** |
+| **Total**  | **34** |
 
 ## 📁 Repository Structure
 
@@ -61,6 +61,7 @@ leetcode-solutions/
 |---|-------|------------|----------|
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | [C++](linked-lists/0002_add_two_numbers.cpp) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | [C++](linked-lists/0021_merge_two_sorted_lists.cpp) |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 🟢 Easy | [C++](linked-lists/0083_remove_duplicates_from_sorted_list.cpp) |
 
 ### Trees
 | # | Title | Difficulty | Solution |
