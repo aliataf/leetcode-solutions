@@ -11,8 +11,8 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 |------------|--------|
 | 🟢 Easy    | 16     |
 | 🟡 Medium  | 15     |
-| 🔴 Hard    | 3      |
-| **Total**  | **34** |
+| 🔴 Hard    | 4      |
+| **Total**  | **35** |
 
 ## 📁 Repository Structure
 
@@ -103,6 +103,7 @@ leetcode-solutions/
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | [C++](stack-queue/0020_valid_parentheses.cpp) |
+| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 Hard | [C++](stack-queue/0084_largest_rectangle_in_histogram.cpp) |
 
 ### Heap / Priority Queue
 | # | Title | Difficulty | Solution |
