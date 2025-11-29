@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 15     |
-| 🟡 Medium  | 14     |
+| 🟡 Medium  | 15     |
 | 🔴 Hard    | 2      |
-| **Total**  | **31** |
+| **Total**  | **32** |
 
 ## 📁 Repository Structure
 
@@ -84,6 +84,7 @@ leetcode-solutions/
 |---|-------|------------|----------|
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | [C++](binary-search/0004_median_of_two_sorted_arrays.cpp) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | [C++](binary-search/0035_search_insert_position.cpp) |
+| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | [C++](binary-search/0074_search_a_2d_matrix.cpp) |
 
 ### Two Pointers
 | # | Title | Difficulty | Solution |
