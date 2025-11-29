@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 15     |
-| 🟡 Medium  | 13     |
+| 🟡 Medium  | 14     |
 | 🔴 Hard    | 2      |
-| **Total**  | **30** |
+| **Total**  | **31** |
 
 ## 📁 Repository Structure
 
@@ -77,6 +77,7 @@ leetcode-solutions/
 |---|-------|------------|----------|
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium | [C++](dynamic-programming/0005_longest_palindromic_substring.cpp) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | [C++](dynamic-programming/0070_climbing_stairs.cpp) |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | [C++](dynamic-programming/0072_edit_distance.cpp) |
 
 ### Binary Search
 | # | Title | Difficulty | Solution |
