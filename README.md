@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 10     |
+| 🟢 Easy    | 11     |
 | 🟡 Medium  | 13     |
 | 🔴 Hard    | 2      |
-| **Total**  | **25** |
+| **Total**  | **26** |
 
 ## 📁 Repository Structure
 
@@ -54,6 +54,7 @@ leetcode-solutions/
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | [C++](strings/0014_longest_common_prefix.cpp) |
 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 Easy | [C++](strings/0028_find_index_of_first_occurrence.cpp) |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | [C++](strings/0049_group_anagrams.cpp) |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 🟢 Easy | [C++](strings/0058_length_of_last_word.cpp) |
 
 ### Linked Lists
 | # | Title | Difficulty | Solution |
