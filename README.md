@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 10     |
-| 🟡 Medium  | 9      |
+| 🟡 Medium  | 10     |
 | 🔴 Hard    | 2      |
-| **Total**  | **21** |
+| **Total**  | **22** |
 
 ## 📁 Repository Structure
 
@@ -110,7 +110,7 @@ leetcode-solutions/
 ### Greedy
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| - | - | - | - |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | [C++](greedy/0055_jump_game.cpp) |
 
 ### Math
 | # | Title | Difficulty | Solution |
