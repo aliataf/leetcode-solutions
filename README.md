@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 13     |
+| 🟢 Easy    | 14     |
 | 🟡 Medium  | 13     |
 | 🔴 Hard    | 2      |
-| **Total**  | **28** |
+| **Total**  | **29** |
 
 ## 📁 Repository Structure
 
@@ -123,6 +123,7 @@ leetcode-solutions/
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | [C++](math/0013_roman_to_integer.cpp) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | [C++](math/0066_plus_one.cpp) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | 🟢 Easy | [C++](math/0067_add_binary.cpp) |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | [C++](math/0069_sqrt_x.cpp) |
 
 ## 📝 Solution Template
 
