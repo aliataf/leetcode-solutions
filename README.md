@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 16     |
+| 🟢 Easy    | 17     |
 | 🟡 Medium  | 15     |
 | 🔴 Hard    | 4      |
-| **Total**  | **35** |
+| **Total**  | **36** |
 
 ## 📁 Repository Structure
 
@@ -46,6 +46,7 @@ leetcode-solutions/
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | [C++](arrays/0027_remove_element.cpp) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 🟡 Medium | [C++](arrays/0036_valid_sudoku.cpp) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | [C++](arrays/0054_spiral_matrix.cpp) |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | [C++](arrays/0088_merge_sorted_array.cpp) |
 
 ### Strings
 | # | Title | Difficulty | Solution |
