@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 11     |
+| 🟢 Easy    | 12     |
 | 🟡 Medium  | 13     |
 | 🔴 Hard    | 2      |
-| **Total**  | **26** |
+| **Total**  | **27** |
 
 ## 📁 Repository Structure
 
@@ -121,6 +121,7 @@ leetcode-solutions/
 |---|-------|------------|----------|
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | [C++](math/0009_palindrome_number.cpp) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | [C++](math/0013_roman_to_integer.cpp) |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | [C++](math/0066_plus_one.cpp) |
 
 ## 📝 Solution Template
 
