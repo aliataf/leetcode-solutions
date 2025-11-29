@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 10     |
-| 🟡 Medium  | 8      |
+| 🟡 Medium  | 9      |
 | 🔴 Hard    | 2      |
-| **Total**  | **20** |
+| **Total**  | **21** |
 
 ## 📁 Repository Structure
 
@@ -49,6 +49,7 @@ leetcode-solutions/
 ### Strings
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | 🟡 Medium | [C++](strings/0008_string_to_integer_atoi.cpp) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | [C++](strings/0014_longest_common_prefix.cpp) |
 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 Easy | [C++](strings/0028_find_index_of_first_occurrence.cpp) |
 
