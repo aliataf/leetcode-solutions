@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 18     |
+| 🟢 Easy    | 19     |
 | 🟡 Medium  | 15     |
 | 🔴 Hard    | 4      |
-| **Total**  | **37** |
+| **Total**  | **38** |
 
 ## 📁 Repository Structure
 
@@ -68,6 +68,7 @@ leetcode-solutions/
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | 🟢 Easy | [C++](trees/0094_binary_tree_inorder_traversal.cpp) |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | [C++](trees/0100_same_tree.cpp) |
 
 ### Graphs
 | # | Title | Difficulty | Solution |
