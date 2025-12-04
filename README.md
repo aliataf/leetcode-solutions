@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 20     |
-| 🟡 Medium  | 16     |
+| 🟢 Easy    | 17     |
+| 🟡 Medium  | 15     |
 | 🔴 Hard    | 4      |
-| **Total**  | **40** |
+| **Total**  | **36** |
 
 ## 📁 Repository Structure
 
@@ -83,6 +83,7 @@ leetcode-solutions/
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium | [C++](dynamic-programming/0005_longest_palindromic_substring.cpp) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | [C++](dynamic-programming/0070_climbing_stairs.cpp) |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | [C++](dynamic-programming/0072_edit_distance.cpp) |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | [C++](dynamic-programming/0118_pascals_triangle.cpp) |
 
 ### Binary Search
 | # | Title | Difficulty | Solution |
