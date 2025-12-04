@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 20     |
-| 🟡 Medium  | 17     |
+| 🟡 Medium  | 18     |
 | 🔴 Hard    | 4      |
-| **Total**  | **41** |
+| **Total**  | **42** |
 
 ## 📁 Repository Structure
 
@@ -76,7 +76,7 @@ leetcode-solutions/
 ### Graphs
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| - | - | - | - |
+| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | 🟡 Medium | [C++](graphs/0133_clone_graph.cpp) |
 
 ### Dynamic Programming
 | # | Title | Difficulty | Solution |
