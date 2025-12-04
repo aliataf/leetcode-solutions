@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 19     |
+| 🟢 Easy    | 20     |
 | 🟡 Medium  | 16     |
 | 🔴 Hard    | 4      |
-| **Total**  | **39** |
+| **Total**  | **40** |
 
 ## 📁 Repository Structure
 
@@ -98,6 +98,7 @@ leetcode-solutions/
 |---|-------|------------|----------|
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | [C++](two-pointers/0011_container_with_most_water.cpp) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard | [C++](two-pointers/0042_trapping_rain_water.cpp) |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy | [C++](two-pointers/0125_valid_palindrome.cpp) |
 
 ### Sliding Window
 | # | Title | Difficulty | Solution |
