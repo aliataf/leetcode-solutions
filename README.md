@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 20     |
-| 🟡 Medium  | 16     |
+| 🟡 Medium  | 17     |
 | 🔴 Hard    | 4      |
-| **Total**  | **40** |
+| **Total**  | **41** |
 
 ## 📁 Repository Structure
 
@@ -47,6 +47,7 @@ leetcode-solutions/
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 🟡 Medium | [C++](arrays/0036_valid_sudoku.cpp) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | [C++](arrays/0054_spiral_matrix.cpp) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | [C++](arrays/0088_merge_sorted_array.cpp) |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | [C++](arrays/0128_longest_consecutive_sequence.cpp) |
 
 ### Strings
 | # | Title | Difficulty | Solution |
