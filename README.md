@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 17     |
+| 🟢 Easy    | 18     |
 | 🟡 Medium  | 15     |
 | 🔴 Hard    | 4      |
-| **Total**  | **36** |
+| **Total**  | **37** |
 
 ## 📁 Repository Structure
 
@@ -84,6 +84,7 @@ leetcode-solutions/
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | [C++](dynamic-programming/0070_climbing_stairs.cpp) |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | [C++](dynamic-programming/0072_edit_distance.cpp) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | [C++](dynamic-programming/0118_pascals_triangle.cpp) |
+| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | 🟢 Easy | [C++](dynamic-programming/0119_pascals_triangle_ii.cpp) |
 
 ### Binary Search
 | # | Title | Difficulty | Solution |
