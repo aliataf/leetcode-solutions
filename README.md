@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 21     |
-| 🟡 Medium  | 18     |
+| 🟡 Medium  | 19     |
 | 🔴 Hard    | 4      |
-| **Total**  | **43** |
+| **Total**  | **44** |
 
 ## 📁 Repository Structure
 
@@ -141,6 +141,7 @@ leetcode-solutions/
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | 🟢 Easy | [C++](math/0067_add_binary.cpp) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | [C++](math/0069_sqrt_x.cpp) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | 🟢 Easy | [C++](math/0136_single_number.cpp) |
+| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | 🟡 Medium | [C++](math/0137_single_number_ii.cpp) |
 
 ## 📝 Solution Template
 
