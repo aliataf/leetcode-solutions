@@ -75,12 +75,10 @@ void printResult(const vector<vector<string>> &result) {
     cout << "[";
     for (size_t j = 0; j < result[i].size(); ++j) {
       cout << "\"" << result[i][j] << "\"";
-      if (j < result[i].size() - 1)
-        cout << ",";
+      if (j < result[i].size() - 1) cout << ",";
     }
     cout << "]";
-    if (i < result.size() - 1)
-      cout << ",";
+    if (i < result.size() - 1) cout << ",";
   }
   cout << "]" << endl;
 }

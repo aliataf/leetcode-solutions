@@ -57,9 +57,7 @@ public:
    * Space Complexity: O(n) - to store the ways for each step
    */
   int climbStairs(int n) {
-    if (n < 4) {
-      return n;
-    }
+    if (n < 4) return n;
     vector<int> s(n + 1);
     s[1] = 1;
     s[2] = 2;

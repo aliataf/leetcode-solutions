@@ -23,7 +23,6 @@
  * - digits[i] is a digit in the range ['2', '9'].
  */
 
-#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>

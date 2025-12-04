@@ -54,12 +54,8 @@ public:
 
     for (int i = 0; i < n; i++) {
       maxPos = max(maxPos, i + nums[i]);
-      if (maxPos >= n - 1) {
-        return true;
-      }
-      if (nums[i] == 0 && maxPos <= i) {
-        return false;
-      }
+      if (maxPos >= n - 1) return true;
+      if (nums[i] == 0 && maxPos <= i) return false;
     }
 
     return true;

@@ -37,7 +37,6 @@
 #include <iostream>
 #include <string>
 #include <unordered_map>
-#include <vector>
 
 using namespace std;
 
@@ -78,18 +77,11 @@ public:
 
   int helper(string &s, string &t, int n, int m) {
     pair<int, int> key = {n, m};
-    if (mp.find(key) != mp.end()) {
-      return mp[key];
-    }
-    if (n == 0) {
-      return m;
-    }
-    if (m == 0) {
-      return n;
-    }
-    if (s[n - 1] == t[m - 1]) {
-      return mp[key] = helper(s, t, n - 1, m - 1);
-    }
+    if (mp.find(key) != mp.end()) return mp[key];
+    if (n == 0) return m;
+    if (m == 0) return n;
+    if (s[n - 1] == t[m - 1]) return mp[key] = helper(s, t, n - 1, m - 1);
+
     return mp[key] =
                1 + min(helper(s, t, n - 1, m),
                        min(helper(s, t, n, m - 1), helper(s, t, n - 1, m - 1)));

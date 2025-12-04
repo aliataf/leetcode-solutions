@@ -49,8 +49,7 @@ public:
     while (left < right) {
       index = (left + right) / 2;
       int node = nums[index];
-      if (node == target)
-        return index;
+      if (node == target) return index;
       if (target > node) {
         left = index + 1;
       } else {

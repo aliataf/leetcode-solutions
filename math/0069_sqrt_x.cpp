@@ -43,14 +43,10 @@ public:
    * Space Complexity: O(1)
    */
   int mySqrt(int x) {
-    if (x <= 1) {
-      return x;
-    }
+    if (x <= 1) return x;
     long i;
     for (i = 1; i * i <= x; i++) {
-      if (i * i == x) {
-        return i;
-      }
+      if (i * i == x) return i;
     }
     return i - 1;
   }

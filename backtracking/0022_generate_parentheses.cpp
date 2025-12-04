@@ -47,10 +47,8 @@ public:
       v.push_back(s);
       return;
     }
-    if (open < max)
-      helper(s + "(", v, open + 1, close, max);
-    if (close < open)
-      helper(s + ")", v, open, close + 1, max);
+    if (open < max) helper(s + "(", v, open + 1, close, max);
+    if (close < open) helper(s + ")", v, open, close + 1, max);
   }
 };
 

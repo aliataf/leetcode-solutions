@@ -82,8 +82,7 @@ void printVector(const vector<int> &v) {
   cout << "[";
   for (size_t i = 0; i < v.size(); ++i) {
     cout << v[i];
-    if (i < v.size() - 1)
-      cout << ",";
+    if (i < v.size() - 1) cout << ",";
   }
   cout << "]" << endl;
 }

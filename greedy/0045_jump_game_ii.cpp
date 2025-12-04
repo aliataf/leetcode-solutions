@@ -59,9 +59,7 @@ public:
   int jump(vector<int> &nums) {
     int maxPosition = 0, n = nums.size(), jumps = 0, currentEnd = 0;
 
-    if (n == 1) {
-      return 0;
-    }
+    if (n == 1) return 0;
 
     for (int i = 0; i < n; i++) {
       maxPosition = max(maxPosition, i + nums[i]);
@@ -69,9 +67,7 @@ public:
         currentEnd = maxPosition;
         jumps++;
       }
-      if (currentEnd >= n - 1) {
-        break;
-      }
+      if (currentEnd >= n - 1) break;
     }
 
     return jumps;

@@ -52,10 +52,8 @@ public:
    * implementation)
    */
   ListNode *mergeTwoLists(ListNode *list1, ListNode *list2) {
-    if (list1 == nullptr)
-      return list2;
-    if (list2 == nullptr)
-      return list1;
+    if (list1 == nullptr) return list2;
+    if (list2 == nullptr) return list1;
 
     ListNode *head;
     if (list1->val <= list2->val) {
@@ -96,8 +94,7 @@ public:
 // ============== Test Cases ==============
 // Helper to create a list from a vector
 ListNode *createList(const vector<int> &vals) {
-  if (vals.empty())
-    return nullptr;
+  if (vals.empty()) return nullptr;
   ListNode *head = new ListNode(vals[0]);
   ListNode *curr = head;
   for (size_t i = 1; i < vals.size(); ++i) {

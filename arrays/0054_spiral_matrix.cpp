@@ -90,8 +90,7 @@ void printResult(const vector<int> &result) {
   cout << "[";
   for (size_t i = 0; i < result.size(); ++i) {
     cout << result[i];
-    if (i < result.size() - 1)
-      cout << ",";
+    if (i < result.size() - 1) cout << ",";
   }
   cout << "]" << endl;
 }

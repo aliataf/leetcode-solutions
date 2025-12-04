@@ -59,25 +59,17 @@ public:
   int myAtoi(string s) {
     int res = 0, idx = 0, sign = 1, n = s.size();
     lli overflowCheck = 0;
-    while (idx < n && s[idx] == ' ') {
-      idx++;
-    }
-    if (idx >= n) {
-      return 0;
-    }
+    while (idx < n && s[idx] == ' ') idx++;
+    if (idx >= n) return 0;
     if (s[idx] == '-' || s[idx] == '+') {
       sign = s[idx] == '-' ? -1 : 1;
       idx++;
     }
     while (idx < n) {
       int digit = s[idx] - '0';
-      if (digit < 0 || digit > 9) {
-        return sign * res;
-      }
+      if (digit < 0 || digit > 9) return sign * res;
       overflowCheck = overflowCheck * 10 + digit;
-      if (overflowCheck > INT_MAX) {
-        return sign == 1 ? INT_MAX : INT_MIN;
-      }
+      if (overflowCheck > INT_MAX) return sign == 1 ? INT_MAX : INT_MIN;
       res = (int)overflowCheck;
       idx++;
     }

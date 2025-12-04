@@ -47,18 +47,12 @@ public:
     for (int i = 0; i < s.length(); i++) {
       if (i < s.length() - 1) {
         int inc = 0;
-        if (s[i] == 'I' && s[i + 1] == 'V')
-          inc = 4;
-        else if (s[i] == 'I' && s[i + 1] == 'X')
-          inc = 9;
-        else if (s[i] == 'X' && s[i + 1] == 'L')
-          inc = 40;
-        else if (s[i] == 'X' && s[i + 1] == 'C')
-          inc = 90;
-        else if (s[i] == 'C' && s[i + 1] == 'D')
-          inc = 400;
-        else if (s[i] == 'C' && s[i + 1] == 'M')
-          inc = 900;
+        if (s[i] == 'I' && s[i + 1] == 'V') inc = 4;
+        else if (s[i] == 'I' && s[i + 1] == 'X') inc = 9;
+        else if (s[i] == 'X' && s[i + 1] == 'L') inc = 40;
+        else if (s[i] == 'X' && s[i + 1] == 'C') inc = 90;
+        else if (s[i] == 'C' && s[i + 1] == 'D') inc = 400;
+        else if (s[i] == 'C' && s[i + 1] == 'M') inc = 900;
 
         if (inc > 0) {
           total += inc;
@@ -66,20 +60,13 @@ public:
           continue;
         }
       }
-      if (s[i] == 'I')
-        total += 1;
-      else if (s[i] == 'V')
-        total += 5;
-      else if (s[i] == 'X')
-        total += 10;
-      else if (s[i] == 'L')
-        total += 50;
-      else if (s[i] == 'C')
-        total += 100;
-      else if (s[i] == 'D')
-        total += 500;
-      else if (s[i] == 'M')
-        total += 1000;
+      if (s[i] == 'I') total += 1;
+      else if (s[i] == 'V') total += 5;
+      else if (s[i] == 'X') total += 10;
+      else if (s[i] == 'L') total += 50;
+      else if (s[i] == 'C') total += 100;
+      else if (s[i] == 'D') total += 500;
+      else if (s[i] == 'M') total += 1000;
     }
 
     return total;

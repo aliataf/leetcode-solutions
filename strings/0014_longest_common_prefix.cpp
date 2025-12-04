@@ -45,8 +45,7 @@ public:
     for (int i = 1, n = strs.size(); i < n; i++) {
       int j = 0, m = min(strs[i].size(), res.size());
       for (j = 0; j < m; j++) {
-        if (strs[i][j] != res[j])
-          break;
+        if (strs[i][j] != res[j]) break;
       }
       res = res.substr(0, j);
     }

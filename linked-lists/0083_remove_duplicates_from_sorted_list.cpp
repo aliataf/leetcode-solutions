@@ -49,9 +49,7 @@ public:
    * Space Complexity: O(1)
    */
   ListNode *deleteDuplicates(ListNode *head) {
-    if (head == nullptr || head->next == nullptr) {
-      return head;
-    }
+    if (head == nullptr || head->next == nullptr) return head;
     ListNode *tmp = head;
     ListNode *tmpNext = head->next;
     while (tmpNext != nullptr) {
@@ -74,8 +72,7 @@ void printList(ListNode *head) {
   cout << "[";
   while (head) {
     cout << head->val;
-    if (head->next)
-      cout << ",";
+    if (head->next) cout << ",";
     head = head->next;
   }
   cout << "]" << endl;
@@ -83,8 +80,7 @@ void printList(ListNode *head) {
 
 // Helper to create list
 ListNode *createList(const vector<int> &vals) {
-  if (vals.empty())
-    return nullptr;
+  if (vals.empty()) return nullptr;
   ListNode *head = new ListNode(vals[0]);
   ListNode *curr = head;
   for (size_t i = 1; i < vals.size(); ++i) {
