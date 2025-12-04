@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 19     |
-| 🟡 Medium  | 15     |
+| 🟡 Medium  | 16     |
 | 🔴 Hard    | 4      |
-| **Total**  | **38** |
+| **Total**  | **39** |
 
 ## 📁 Repository Structure
 
@@ -128,6 +128,7 @@ leetcode-solutions/
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | 🟡 Medium | [C++](greedy/0045_jump_game_ii.cpp) |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | [C++](greedy/0055_jump_game.cpp) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | [C++](greedy/0121_best_time_to_buy_and_sell_stock.cpp) |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 Medium | [C++](greedy/0122_best_time_to_buy_and_sell_stock_ii.cpp) |
 
 ### Math
 | # | Title | Difficulty | Solution |
