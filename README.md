@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 22     |
-| 🟡 Medium  | 22     |
+| 🟡 Medium  | 23     |
 | 🔴 Hard    | 4      |
-| **Total**  | **48** |
+| **Total**  | **49** |
 
 ## 📁 Repository Structure
 
@@ -85,6 +85,7 @@ leetcode-solutions/
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium | [C++](dynamic-programming/0005_longest_palindromic_substring.cpp) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | [C++](dynamic-programming/0062_unique_paths.cpp) |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | 🟡 Medium | [C++](dynamic-programming/0063_unique_paths_ii.cpp) |
+| 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | [C++](dynamic-programming/0064_minimum_path_sum.cpp) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | [C++](dynamic-programming/0070_climbing_stairs.cpp) |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | [C++](dynamic-programming/0072_edit_distance.cpp) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | [C++](dynamic-programming/0118_pascals_triangle.cpp) |
