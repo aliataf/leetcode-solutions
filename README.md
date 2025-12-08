@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 22     |
-| 🟡 Medium  | 24     |
+| 🟡 Medium  | 25     |
 | 🔴 Hard    | 4      |
-| **Total**  | **50** |
+| **Total**  | **51** |
 
 ## 📁 Repository Structure
 
@@ -141,6 +141,7 @@ leetcode-solutions/
 ### Math
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | [C++](math/0007_reverse_integer.cpp) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | [C++](math/0009_palindrome_number.cpp) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | [C++](math/0013_roman_to_integer.cpp) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | [C++](math/0066_plus_one.cpp) |
