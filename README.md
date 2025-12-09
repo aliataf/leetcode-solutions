@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 22     |
-| 🟡 Medium  | 25     |
+| 🟡 Medium  | 26     |
 | 🔴 Hard    | 4      |
-| **Total**  | **51** |
+| **Total**  | **52** |
 
 ## 📁 Repository Structure
 
@@ -141,14 +141,15 @@ leetcode-solutions/
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | � Easy | [C++](trees/0094_binary_tree_inorder_traversal.cpp) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | [C++](trees/0100_same_tree.cpp) |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 Easy | [C++](trees/0112_path_sum.cpp) |
-| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | � Medium | [C++](trees/0113_path_sum_ii.cpp) |
+| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | 🟡 Medium | [C++](trees/0113_path_sum_ii.cpp) |
 
 ### Two Pointers
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | � Medium | [C++](two-pointers/0011_container_with_most_water.cpp) |
-| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | � Hard | [C++](two-pointers/0042_trapping_rain_water.cpp) |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | � Easy | [C++](two-pointers/0125_valid_palindrome.cpp) |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | [C++](two-pointers/0011_container_with_most_water.cpp) |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard | [C++](two-pointers/0042_trapping_rain_water.cpp) |
+| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | [C++](two-pointers/0075_sort_colors.cpp) |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy | [C++](two-pointers/0125_valid_palindrome.cpp) |
 
 ## 📝 Solution Template
 
