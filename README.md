@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 24     |
-| 🟡 Medium  | 27     |
+| 🟡 Medium  | 28     |
 | 🔴 Hard    | 4      |
-| **Total**  | **55** |
+| **Total**  | **56** |
 
 ## 📁 Repository Structure
 
@@ -81,6 +81,7 @@ leetcode-solutions/
 |---|-------|------------|----------|
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | 🟡 Medium | [C++](graphs/0133_clone_graph.cpp) |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | [C++](graphs/0207_course_schedule.cpp) |
+| 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | [C++](graphs/0210_course_schedule_ii.cpp) |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | 🟢 Easy | [C++](graphs/0997_find_the_town_judge.cpp) |
 
 ### Greedy
