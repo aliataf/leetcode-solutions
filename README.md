@@ -9,10 +9,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 22     |
+| 🟢 Easy    | 23     |
 | 🟡 Medium  | 26     |
 | 🔴 Hard    | 4      |
-| **Total**  | **52** |
+| **Total**  | **53** |
 
 ## 📁 Repository Structure
 
@@ -48,6 +48,7 @@ leetcode-solutions/
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | [C++](arrays/0054_spiral_matrix.cpp) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | [C++](arrays/0088_merge_sorted_array.cpp) |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | [C++](arrays/0128_longest_consecutive_sequence.cpp) |
+| 1991 | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/) | 🟢 Easy | [C++](arrays/1991_find_the_middle_index_in_array.cpp) |
 
 ### Backtracking
 | # | Title | Difficulty | Solution |
