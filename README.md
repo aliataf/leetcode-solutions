@@ -11,8 +11,8 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 |------------|--------|
 | 🟢 Easy    | 24     |
 | 🟡 Medium  | 28     |
-| 🔴 Hard    | 4      |
-| **Total**  | **56** |
+| 🔴 Hard    | 5      |
+| **Total**  | **57** |
 
 ## 📁 Repository Structure
 
@@ -66,6 +66,7 @@ leetcode-solutions/
 ### Dynamic Programming
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | [C++](dynamic-programming/0010_regular_expression_matching.cpp) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium | [C++](dynamic-programming/0005_longest_palindromic_substring.cpp) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | � Medium | [C++](dynamic-programming/0062_unique_paths.cpp) |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | � Medium | [C++](dynamic-programming/0063_unique_paths_ii.cpp) |
