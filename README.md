@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 24     |
-| 🟡 Medium  | 28     |
+| 🟡 Medium  | 29     |
 | 🔴 Hard    | 5      |
-| **Total**  | **57** |
+| **Total**  | **58** |
 
 ## 📁 Repository Structure
 
@@ -111,7 +111,8 @@ leetcode-solutions/
 |---|-------|------------|----------|
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | � Medium | [C++](math/0007_reverse_integer.cpp) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | [C++](math/0009_palindrome_number.cpp) |
-| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | � Easy | [C++](math/0013_roman_to_integer.cpp) |
+| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 🟡 Medium | [C++](math/0012_integer_to_roman.cpp) |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | [C++](math/0013_roman_to_integer.cpp) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | [C++](math/0066_plus_one.cpp) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | � Easy | [C++](math/0067_add_binary.cpp) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | [C++](math/0069_sqrt_x.cpp) |
