@@ -11,8 +11,8 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 |------------|--------|
 | 🟢 Easy    | 25     |
 | 🟡 Medium  | 32     |
-| 🔴 Hard    | 5      |
-| **Total**  | **62** |
+| 🔴 Hard    | 6      |
+| **Total**  | **63** |
 
 ## 📁 Repository Structure
 
@@ -107,6 +107,7 @@ leetcode-solutions/
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | [C++](linked-lists/0002_add_two_numbers.cpp) |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Medium | [C++](linked-lists/0019_remove_nth_node_from_end_of_list.cpp) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | [C++](linked-lists/0021_merge_two_sorted_lists.cpp) |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | [C++](linked-lists/0023_merge_k_sorted_lists.cpp) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 🟢 Easy | [C++](linked-lists/0083_remove_duplicates_from_sorted_list.cpp) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | � Easy | [C++](linked-lists/0141_linked_list_cycle.cpp) |
 
