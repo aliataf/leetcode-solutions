@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 25     |
-| 🟡 Medium  | 33     |
+| 🟡 Medium  | 34     |
 | 🔴 Hard    | 6      |
-| **Total**  | **64** |
+| **Total**  | **65** |
 
 ## 📁 Repository Structure
 
@@ -119,6 +119,7 @@ leetcode-solutions/
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | [C++](math/0009_palindrome_number.cpp) |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 🟡 Medium | [C++](math/0012_integer_to_roman.cpp) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | [C++](math/0013_roman_to_integer.cpp) |
+| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | [C++](math/0029_divide_two_integers.cpp) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | [C++](math/0066_plus_one.cpp) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | � Easy | [C++](math/0067_add_binary.cpp) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | [C++](math/0069_sqrt_x.cpp) |
