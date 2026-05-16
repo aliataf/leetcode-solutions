@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 25     |
-| 🟡 Medium  | 32     |
+| 🟡 Medium  | 33     |
 | 🔴 Hard    | 6      |
-| **Total**  | **63** |
+| **Total**  | **64** |
 
 ## 📁 Repository Structure
 
@@ -108,6 +108,7 @@ leetcode-solutions/
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Medium | [C++](linked-lists/0019_remove_nth_node_from_end_of_list.cpp) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | [C++](linked-lists/0021_merge_two_sorted_lists.cpp) |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | [C++](linked-lists/0023_merge_k_sorted_lists.cpp) |
+| 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 🟡 Medium | [C++](linked-lists/0024_swap_nodes_in_pairs.cpp) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 🟢 Easy | [C++](linked-lists/0083_remove_duplicates_from_sorted_list.cpp) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | � Easy | [C++](linked-lists/0141_linked_list_cycle.cpp) |
 
