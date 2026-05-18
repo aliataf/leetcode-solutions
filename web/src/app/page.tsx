@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { GithubIcon } from "@/components/icons";
@@ -9,6 +10,10 @@ import { TopicBadge } from "@/components/topic-badge";
 import { getAllSolutions, getManifest, getSolutionBySlug } from "@/lib/solutions";
 import { difficultyCounts, recentlySolved, topicCounts } from "@/lib/stats";
 import { FEATURED_SLUGS, OWNER } from "@/lib/constants";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function HomePage() {
   const manifest = getManifest();

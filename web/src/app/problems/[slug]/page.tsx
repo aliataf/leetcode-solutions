@@ -7,7 +7,10 @@ import { TopicBadge } from "@/components/topic-badge";
 import { ComplexityBadge } from "@/components/complexity-badge";
 import { CodeBlock } from "@/components/code-block";
 import { GithubIcon } from "@/components/icons";
-import { getAllSlugs, getSolutionBySlug } from "@/lib/solutions";
+import { JsonLd } from "@/components/json-ld";
+import { getAllSlugs, getAllSolutions, getSolutionBySlug } from "@/lib/solutions";
+import { problemJsonLd, problemMetadata } from "@/lib/seo";
+import type { Solution } from "@/types/solution";
 
 interface PageParams {
   params: Promise<{ slug: string }>;
@@ -20,11 +23,29 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: PageParams): Promise<Metadata> {
   const { slug } = await params;
   const s = getSolutionBySlug(slug);
-  if (!s) return { title: "Not found" };
-  return {
-    title: `${s.number}. ${s.title}`,
-    description: s.description.slice(0, 160) || `${s.title} — ${s.difficulty}`,
-  };
+  if (!s) return { title: "Not found", robots: { index: false } };
+  return problemMetadata(s);
+}
+
+function pickRelated(current: Solution, all: Solution[], limit = 4): Solution[] {
+  const sameTopic = all.filter(
+    (s) => s.topic === current.topic && s.slug !== current.slug,
+  );
+  // Prefer same difficulty within the topic, then anything in the topic.
+  const sameDifficulty = sameTopic.filter((s) => s.difficulty === current.difficulty);
+  const ordered = [
+    ...sameDifficulty.sort((a, b) => Math.abs(a.number - current.number) - Math.abs(b.number - current.number)),
+    ...sameTopic.filter((s) => s.difficulty !== current.difficulty).sort((a, b) => Math.abs(a.number - current.number) - Math.abs(b.number - current.number)),
+  ];
+  const seen = new Set<string>();
+  const out: Solution[] = [];
+  for (const s of ordered) {
+    if (seen.has(s.slug)) continue;
+    seen.add(s.slug);
+    out.push(s);
+    if (out.length >= limit) break;
+  }
+  return out;
 }
 
 export default async function ProblemPage({ params }: PageParams) {
@@ -32,6 +53,7 @@ export default async function ProblemPage({ params }: PageParams) {
   const s = getSolutionBySlug(slug);
   if (!s) notFound();
 
+  const related = pickRelated(s, getAllSolutions());
   const solved = s.firstCommittedAt
     ? new Date(s.firstCommittedAt).toLocaleDateString("en-US", {
         year: "numeric",
@@ -42,7 +64,12 @@ export default async function ProblemPage({ params }: PageParams) {
 
   return (
     <article className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-12">
-      <nav className="mb-6 flex items-center gap-2 text-xs text-muted-foreground">
+      <JsonLd id={`ld-problem-${s.slug}`} data={problemJsonLd(s)} />
+
+      <nav
+        aria-label="Breadcrumb"
+        className="mb-6 flex items-center gap-2 text-xs text-muted-foreground"
+      >
         <Link
           href="/problems"
           className="inline-flex items-center gap-1 hover:text-foreground"
@@ -64,6 +91,10 @@ export default async function ProblemPage({ params }: PageParams) {
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           {s.title}
         </h1>
+        <p className="text-sm text-muted-foreground">
+          LeetCode #{s.number} · {s.difficulty} · {s.topicLabel} · C++ solution
+          with worked-out approach and complexity analysis.
+        </p>
         <div className="flex flex-wrap items-center gap-2 text-xs">
           <a
             href={s.link}
@@ -153,19 +184,21 @@ export default async function ProblemPage({ params }: PageParams) {
       </section>
 
       {s.description ? (
-        <details className="group mt-8 rounded-xl border border-border bg-card open:bg-card">
-          <summary className="cursor-pointer list-none px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-muted/40 group-open:border-b group-open:border-border">
-            <span className="inline-flex items-center gap-2">
-              Problem description
-              <span className="text-xs font-normal text-muted-foreground">
-                (from LeetCode)
+        <section className="mt-8" aria-labelledby="problem-description-heading">
+          <details className="group rounded-xl border border-border bg-card open:bg-card">
+            <summary className="cursor-pointer list-none px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-muted/40 group-open:border-b group-open:border-border">
+              <span id="problem-description-heading" className="inline-flex items-center gap-2">
+                Problem description
+                <span className="text-xs font-normal text-muted-foreground">
+                  (from LeetCode)
+                </span>
               </span>
-            </span>
-          </summary>
-          <div className="px-5 py-4 text-sm leading-relaxed text-foreground">
-            <p className="whitespace-pre-line">{s.description}</p>
-          </div>
-        </details>
+            </summary>
+            <div className="px-5 py-4 text-sm leading-relaxed text-foreground">
+              <p className="whitespace-pre-line">{s.description}</p>
+            </div>
+          </details>
+        </section>
       ) : null}
 
       {s.examples.length > 0 ? (
@@ -228,10 +261,39 @@ export default async function ProblemPage({ params }: PageParams) {
 
       <section className="mt-10">
         <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
-          Solution
+          C++ Solution
         </h2>
         <CodeBlock code={s.code} />
       </section>
+
+      {related.length > 0 ? (
+        <section className="mt-12" aria-labelledby="related-problems-heading">
+          <h2
+            id="related-problems-heading"
+            className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground"
+          >
+            More {s.topicLabel} problems
+          </h2>
+          <ul className="grid gap-2 sm:grid-cols-2">
+            {related.map((r) => (
+              <li key={r.slug}>
+                <Link
+                  href={`/problems/${r.slug}`}
+                  className="group flex items-center gap-3 rounded-lg border border-border bg-card px-4 py-3 transition-colors hover:border-accent hover:bg-muted/50"
+                >
+                  <span className="font-mono text-xs text-muted-foreground">
+                    #{r.paddedNumber}
+                  </span>
+                  <span className="flex-1 truncate text-sm font-medium group-hover:text-accent">
+                    {r.title}
+                  </span>
+                  <DifficultyBadge difficulty={r.difficulty} />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       <footer className="mt-10 flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground">
         {solved ? <span>Solved on {solved}</span> : <span />}

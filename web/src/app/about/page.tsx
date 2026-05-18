@@ -4,8 +4,15 @@ import { GithubIcon } from "@/components/icons";
 import { OWNER } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "About",
-  description: `About ${OWNER.name} and how this site was built.`,
+  title: `About ${OWNER.name}`,
+  description: `${OWNER.name} — software engineer. Background, skills, and the LeetCode solutions notebook behind this site.`,
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: `About ${OWNER.name}`,
+    description: `${OWNER.name} — software engineer. Background, skills, and the LeetCode solutions notebook behind this site.`,
+    url: "/about",
+    type: "profile",
+  },
 };
 
 const skills = [
