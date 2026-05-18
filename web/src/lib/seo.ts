@@ -55,7 +55,8 @@ export function websiteJsonLd() {
 }
 
 export function problemJsonLd(s: Solution) {
-  const url = absoluteUrl(`/problems/${s.slug}`);
+  const url = absoluteUrl(`/problems/${s.slug}/`);
+  const ogImageUrl = absoluteUrl(`/problems/${s.slug}/opengraph-image`);
   const datePublished = s.firstCommittedAt;
   const dateModified = s.lastCommittedAt ?? s.firstCommittedAt;
   const body =
@@ -75,6 +76,12 @@ export function problemJsonLd(s: Solution) {
         description: truncateDescription(body),
         url,
         mainEntityOfPage: url,
+        image: {
+          "@type": "ImageObject",
+          url: ogImageUrl,
+          width: 1200,
+          height: 630,
+        },
         author: { "@id": `${SITE_URL}/#person` },
         creator: { "@id": `${SITE_URL}/#person` },
         publisher: { "@id": `${SITE_URL}/#person` },
@@ -117,13 +124,13 @@ export function problemJsonLd(s: Solution) {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: SITE_URL,
+            item: absoluteUrl("/"),
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Problems",
-            item: absoluteUrl("/problems"),
+            item: absoluteUrl("/problems/"),
           },
           {
             "@type": "ListItem",
