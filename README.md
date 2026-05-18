@@ -1,6 +1,7 @@
 # 🧠 LeetCode Solutions
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/u/aliataf)
+[![Portfolio](https://img.shields.io/badge/Portfolio-aliataf.com-555?style=for-the-badge)](https://aliataf.com)
 [![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org/)
 [![Live site](https://img.shields.io/badge/Live_site-leetcode.aliataf.com-1e66f5?style=for-the-badge)](https://leetcode.aliataf.com)
 

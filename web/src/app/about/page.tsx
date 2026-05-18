@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail } from "lucide-react";
+import { Code2, Globe, Mail } from "lucide-react";
 import { GithubIcon } from "@/components/icons";
 import { OWNER } from "@/lib/constants";
 
@@ -54,6 +54,17 @@ export default function AboutPage() {
         <ul className="mt-3 flex flex-col gap-2 text-sm">
           <li>
             <a
+              href={OWNER.portfolio}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-flex items-center gap-2 text-foreground transition-colors hover:text-accent"
+            >
+              <Globe className="h-4 w-4" />
+              aliataf.com
+            </a>
+          </li>
+          <li>
+            <a
               href={OWNER.github}
               target="_blank"
               rel="noreferrer noopener"
@@ -61,6 +72,17 @@ export default function AboutPage() {
             >
               <GithubIcon className="h-4 w-4" />
               github.com/aliataf
+            </a>
+          </li>
+          <li>
+            <a
+              href={OWNER.leetcode}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-flex items-center gap-2 text-foreground transition-colors hover:text-accent"
+            >
+              <Code2 className="h-4 w-4" />
+              leetcode.com/u/aliataf
             </a>
           </li>
           <li>

@@ -7,6 +7,8 @@ export const OWNER = {
   name: "Ali Ataf",
   email: "ali@aliataf.com",
   github: "https://github.com/aliataf",
+  leetcode: "https://leetcode.com/u/aliataf",
+  portfolio: "https://aliataf.com",
   repo: "https://github.com/aliataf/leetcode-solutions",
   repoBlobBase: "https://github.com/aliataf/leetcode-solutions/blob/main",
 } as const;
