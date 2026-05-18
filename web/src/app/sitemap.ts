@@ -22,13 +22,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
-      url: `${SITE_URL}/problems`,
+      url: `${SITE_URL}/problems/`,
       lastModified: indexLastModified,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: `${SITE_URL}/about`,
+      url: `${SITE_URL}/about/`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.4,
@@ -38,7 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Difficulty-by-difficulty: prioritize Hard slightly higher (less competition, longer dwell).
   const difficultyPriority = { Easy: 0.65, Medium: 0.7, Hard: 0.75 } as const;
   const problemUrls: MetadataRoute.Sitemap = solutions.map((s) => ({
-    url: `${SITE_URL}/problems/${s.slug}`,
+    url: `${SITE_URL}/problems/${s.slug}/`,
     lastModified: s.lastCommittedAt
       ? new Date(s.lastCommittedAt)
       : s.firstCommittedAt
