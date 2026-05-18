@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 25     |
-| 🟡 Medium  | 35     |
+| 🟡 Medium  | 36     |
 | 🔴 Hard    | 6      |
-| **Total**  | **66** |
+| **Total**  | **67** |
 
 ## 📁 Repository Structure
 
@@ -48,6 +48,7 @@ leetcode-solutions/
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | [C++](arrays/0027_remove_element.cpp) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 🟡 Medium | [C++](arrays/0036_valid_sudoku.cpp) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | [C++](arrays/0054_spiral_matrix.cpp) |
+| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 🟡 Medium | [C++](arrays/0073_set_matrix_zeroes.cpp) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | [C++](arrays/0088_merge_sorted_array.cpp) |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | [C++](arrays/0128_longest_consecutive_sequence.cpp) |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | 🟢 Easy | [C++](arrays/0228_summary_ranges.cpp) |
