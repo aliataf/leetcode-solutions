@@ -2,6 +2,7 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/)
 [![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org/)
+[![Live site](https://img.shields.io/badge/Live_site-leetcode.aliataf.com-1e66f5?style=for-the-badge)](https://leetcode.aliataf.com)
 
 My solutions to LeetCode problems, organized by topic and difficulty. Each solution includes detailed explanations, time & space complexity analysis, and multiple approaches when applicable.
 
@@ -9,10 +10,10 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 25     |
-| 🟡 Medium  | 36     |
+| 🟢 Easy    | 29     |
+| 🟡 Medium  | 38     |
 | 🔴 Hard    | 6      |
-| **Total**  | **67** |
+| **Total**  | **73** |
 
 ## 📁 Repository Structure
 
@@ -63,20 +64,20 @@ leetcode-solutions/
 ### Binary Search
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | � Hard | [C++](binary-search/0004_median_of_two_sorted_arrays.cpp) |
-| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | � Easy | [C++](binary-search/0035_search_insert_position.cpp) |
-| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | � Medium | [C++](binary-search/0074_search_a_2d_matrix.cpp) |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | [C++](binary-search/0004_median_of_two_sorted_arrays.cpp) |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | [C++](binary-search/0035_search_insert_position.cpp) |
+| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | [C++](binary-search/0074_search_a_2d_matrix.cpp) |
 
 ### Dynamic Programming
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | [C++](dynamic-programming/0010_regular_expression_matching.cpp) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium | [C++](dynamic-programming/0005_longest_palindromic_substring.cpp) |
-| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | � Medium | [C++](dynamic-programming/0062_unique_paths.cpp) |
-| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | � Medium | [C++](dynamic-programming/0063_unique_paths_ii.cpp) |
-| 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | � Medium | [C++](dynamic-programming/0064_minimum_path_sum.cpp) |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | [C++](dynamic-programming/0062_unique_paths.cpp) |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | 🟡 Medium | [C++](dynamic-programming/0063_unique_paths_ii.cpp) |
+| 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | [C++](dynamic-programming/0064_minimum_path_sum.cpp) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | [C++](dynamic-programming/0070_climbing_stairs.cpp) |
-| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | � Medium | [C++](dynamic-programming/0072_edit_distance.cpp) |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | [C++](dynamic-programming/0072_edit_distance.cpp) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | [C++](dynamic-programming/0118_pascals_triangle.cpp) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | 🟢 Easy | [C++](dynamic-programming/0119_pascals_triangle_ii.cpp) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | [C++](dynamic-programming/0139_word_break.cpp) |
@@ -95,7 +96,7 @@ leetcode-solutions/
 |---|-------|------------|----------|
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | 🟡 Medium | [C++](greedy/0045_jump_game_ii.cpp) |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | [C++](greedy/0055_jump_game.cpp) |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | � Easy | [C++](greedy/0121_best_time_to_buy_and_sell_stock.cpp) |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | [C++](greedy/0121_best_time_to_buy_and_sell_stock.cpp) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 Medium | [C++](greedy/0122_best_time_to_buy_and_sell_stock_ii.cpp) |
 
 ### Heap / Priority Queue
@@ -112,21 +113,21 @@ leetcode-solutions/
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | [C++](linked-lists/0023_merge_k_sorted_lists.cpp) |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 🟡 Medium | [C++](linked-lists/0024_swap_nodes_in_pairs.cpp) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 🟢 Easy | [C++](linked-lists/0083_remove_duplicates_from_sorted_list.cpp) |
-| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | � Easy | [C++](linked-lists/0141_linked_list_cycle.cpp) |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 🟢 Easy | [C++](linked-lists/0141_linked_list_cycle.cpp) |
 
 ### Math
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | � Medium | [C++](math/0007_reverse_integer.cpp) |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | [C++](math/0007_reverse_integer.cpp) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | [C++](math/0009_palindrome_number.cpp) |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 🟡 Medium | [C++](math/0012_integer_to_roman.cpp) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | [C++](math/0013_roman_to_integer.cpp) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | [C++](math/0029_divide_two_integers.cpp) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | [C++](math/0066_plus_one.cpp) |
-| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | � Easy | [C++](math/0067_add_binary.cpp) |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | 🟢 Easy | [C++](math/0067_add_binary.cpp) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | [C++](math/0069_sqrt_x.cpp) |
-| 136 | [Single Number](https://leetcode.com/problems/single-number/) | � Easy | [C++](math/0136_single_number.cpp) |
-| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | � Medium | [C++](math/0137_single_number_ii.cpp) |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | 🟢 Easy | [C++](math/0136_single_number.cpp) |
+| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | 🟡 Medium | [C++](math/0137_single_number_ii.cpp) |
 
 ### Sliding Window
 | # | Title | Difficulty | Solution |
@@ -145,15 +146,16 @@ leetcode-solutions/
 |---|-------|------------|----------|
 | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | 🟡 Medium | [C++](strings/0006_zigzag_conversion.cpp) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | 🟡 Medium | [C++](strings/0008_string_to_integer_atoi.cpp) |
-| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | � Easy | [C++](strings/0014_longest_common_prefix.cpp) |
-| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | � Easy | [C++](strings/0028_find_index_of_first_occurrence.cpp) |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | � Medium | [C++](strings/0049_group_anagrams.cpp) |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | � Easy | [C++](strings/0058_length_of_last_word.cpp) |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | [C++](strings/0014_longest_common_prefix.cpp) |
+| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 Easy | [C++](strings/0028_find_index_of_first_occurrence.cpp) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | [C++](strings/0049_group_anagrams.cpp) |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 🟢 Easy | [C++](strings/0058_length_of_last_word.cpp) |
+| 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | 🟡 Medium | [C++](strings/0299_bulls_and_cows.cpp) |
 
 ### Trees
 | # | Title | Difficulty | Solution |
 |---|-------|------------|----------|
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | � Easy | [C++](trees/0094_binary_tree_inorder_traversal.cpp) |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | 🟢 Easy | [C++](trees/0094_binary_tree_inorder_traversal.cpp) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | [C++](trees/0100_same_tree.cpp) |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 Easy | [C++](trees/0112_path_sum.cpp) |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | 🟡 Medium | [C++](trees/0113_path_sum_ii.cpp) |
