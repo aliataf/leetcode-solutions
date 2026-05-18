@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: oklch(0.99 0 0);
+  --foreground: oklch(0.18 0.01 240);
+  --muted: oklch(0.96 0.005 240);
+  --muted-foreground: oklch(0.45 0.015 240);
+  --border: oklch(0.91 0.01 240);
+  --card: oklch(0.99 0 0);
+  --card-foreground: oklch(0.18 0.01 240);
+  --accent: oklch(0.55 0.18 265);
+  --accent-foreground: oklch(0.99 0 0);
+  --easy: oklch(0.62 0.16 150);
+  --easy-bg: oklch(0.94 0.06 150);
+  --medium: oklch(0.62 0.15 70);
+  --medium-bg: oklch(0.94 0.07 80);
+  --hard: oklch(0.6 0.21 25);
+  --hard-bg: oklch(0.94 0.06 25);
+
+}
+
+.dark {
+  --background: oklch(0.16 0.012 250);
+  --foreground: oklch(0.94 0.005 240);
+  --muted: oklch(0.22 0.014 250);
+  --muted-foreground: oklch(0.65 0.012 240);
+  --border: oklch(0.27 0.014 250);
+  --card: oklch(0.19 0.013 250);
+  --card-foreground: oklch(0.94 0.005 240);
+  --accent: oklch(0.7 0.18 265);
+  --accent-foreground: oklch(0.16 0.012 250);
+  --easy: oklch(0.75 0.16 150);
+  --easy-bg: oklch(0.27 0.06 150);
+  --medium: oklch(0.78 0.14 75);
+  --medium-bg: oklch(0.27 0.07 75);
+  --hard: oklch(0.72 0.18 25);
+  --hard-bg: oklch(0.27 0.08 25);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-easy: var(--easy);
+  --color-easy-bg: var(--easy-bg);
+  --color-medium: var(--medium);
+  --color-medium-bg: var(--medium-bg);
+  --color-hard: var(--hard);
+  --color-hard-bg: var(--hard-bg);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+.shiki,
+.shiki span {
+  color: var(--shiki-light);
+  background-color: var(--shiki-light-bg);
+  font-style: var(--shiki-light-font-style);
+  font-weight: var(--shiki-light-font-weight);
+  text-decoration: var(--shiki-light-text-decoration);
+}
+
+html.dark .shiki,
+html.dark .shiki span {
+  color: var(--shiki-dark);
+  background-color: var(--shiki-dark-bg);
+  font-style: var(--shiki-dark-font-style);
+  font-weight: var(--shiki-dark-font-weight);
+  text-decoration: var(--shiki-dark-text-decoration);
+}
+
+.shiki code {
+  background: transparent;
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+::selection {
+  background: color-mix(in oklch, var(--accent) 28%, transparent);
+}
