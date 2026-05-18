@@ -10,9 +10,9 @@ My solutions to LeetCode problems, organized by topic and difficulty. Each solut
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 25     |
-| 🟡 Medium  | 34     |
+| 🟡 Medium  | 35     |
 | 🔴 Hard    | 6      |
-| **Total**  | **65** |
+| **Total**  | **66** |
 
 ## 📁 Repository Structure
 
@@ -79,6 +79,7 @@ leetcode-solutions/
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | [C++](dynamic-programming/0118_pascals_triangle.cpp) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | 🟢 Easy | [C++](dynamic-programming/0119_pascals_triangle_ii.cpp) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | [C++](dynamic-programming/0139_word_break.cpp) |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | [C++](dynamic-programming/0198_house_robber.cpp) |
 
 ### Graphs
 | # | Title | Difficulty | Solution |
